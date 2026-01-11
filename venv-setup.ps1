@@ -38,3 +38,6 @@ if (Test-Path $Requirements) {
 }
 
 Write-Host "Virtual environment setup complete."
+
+# Changelog
+#2026-01-11 - AS - v1, Initial release.

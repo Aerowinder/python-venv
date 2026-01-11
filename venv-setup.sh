@@ -39,7 +39,6 @@ fi
 echo "Creating virtual environment at $VENV_PATH..."
 python3 -m venv "$VENV_PATH"
 
-# Install requirements.txt
 if [ -f "$FILE_REQ" ]; then
     echo "Installing dependencies from $FILE_REQ..."
     echo
@@ -48,3 +47,6 @@ if [ -f "$FILE_REQ" ]; then
 else
     echo "No requirements.txt found in $GIT_REPO, continuing without..."
 fi
+
+# Changelog
+#2026-01-11 - AS - v1, Initial release.
